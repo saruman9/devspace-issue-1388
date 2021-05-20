@@ -1,0 +1,8 @@
+version: v1beta10
+images:
+  test:
+    image: test
+    build:
+      buildKit:
+        options:
+          target: test
